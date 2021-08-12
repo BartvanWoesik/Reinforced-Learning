@@ -123,3 +123,6 @@ def main():
         text = myfont.render("Score {0}".format(snake.score), 1, (0,0,0))
         screen.blit(text, (5,10))
         pygame.display.update()
+
+
+main()
